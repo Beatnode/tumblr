@@ -1,0 +1,25 @@
+{
+    "name": "beatnode/tumblr",
+    "description": "Wrapper for the offical Tumblr SDK to provide authentication",
+    "version": "1.0.0",
+    "keywords": ["tumblr","oauth"],
+    "homepage": "https://github.com/beatnode/tumblr",
+    "type": "library",
+    "license": "MIT", 
+    "authors": [
+        {
+            "name": "Stephen Radford",
+            "email": "steve228uk@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "tumblr/tumblr": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Beatnode\\Tumblr": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
